@@ -64,7 +64,7 @@ new int[]{1,2,3,4};
 
 printArray(new int[] {1,2,3,4});
 
->The indices must be between 0 and length-1
+> The indices must be between 0 and length-1
 
 char[] chars = {'a','b','c','d'};
 
@@ -80,13 +80,13 @@ System.out.println(chars); //abcd
 
 #### PASSING ARRAYS TO METHODS 
 
->Arrays are passed by reference
+> Arrays are passed by reference
 
 public static void main(String[] args){
    int[] numbers = {0,1};
 
    change(numbers);
-   
+
    printsArray(numbers); //1 0
 }
 
@@ -106,7 +106,7 @@ public static  void printArray(int[] number){
    }
 }
 
->Point is destroyed after this method is executed
+> Point is destroyed after this method is executed
 
 public static void main(String[] args){
 
@@ -121,4 +121,19 @@ public static Point getPoint(){
 
 }
 
->An object is destroyed when it is no longer reference by a variable
+> An object is destroyed when it is no longer reference by a variable
+
+## What is ARRAY CLASS
+##### A class that contains some static methods that are used with arrays
+
+- Sorting
+- Searching
+- Comparing
+- Filling
+- Returning a string representation of an array
+
+> SORTING ARRAYS(Using sort())
+
+//sort(array): sorts the whole array
+
+[Sorting Arrays program](sortingArrays.java)
